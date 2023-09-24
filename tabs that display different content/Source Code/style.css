@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(207, 207, 255);
+}
+
+.main-contener {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 13px;
+}
+
+.sub-main {
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: min-content;
+    height: auto;
+}
+
+.photo {
+    display: flex;
+}
+
+.photo img {
+    width: 40rem;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+}
+
+.btns {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btns a {
+    font-size: 1.5rem;
+    background-color: cyan;
+    padding: 12px 31px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btns a:focus {
+    background-color: white;
+}
+
+
+.text-content {
+    font-size: 15px;
+    padding: 14px;
+    background-color: white;
+    height: 100%;
+    text-wrap: wrap;
+}
+
+.disNone {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.Histor {
+    background-color: white !important;
+}
